@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @pushpxm
 - 👀 I’m interested in cloud devops engineering
-- 🌱 I’m currently learning Linux operating system and Dockers
+- 🌱 I’m currently learning bash-scripting
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me (https://www.linkedin.com/in/pushpam-nagdeve-5b4a75200/)
 

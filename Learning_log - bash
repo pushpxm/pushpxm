@@ -37,3 +37,14 @@ like in this CODE1 - the first variable that is - var_one=text.txt,
 Instead of text, we can assign it to $1, that is var_one=$1
 Results -> at the time of executing the script in the terminal - write = bash filename.sh (argument_text) 
 you can assign whatever value to variabe one if you use the aargument. 
+
+
+02-06-2022
+-Learnt about how the argument and parameter works. 
+#!/bin/bash
+echo " admin $1 "
+echo " user $2" 
+echo " This will tell how many parameters are being used : $# "
+echo " This will show the listing of parameters in horizontal manner : $* "
+
+

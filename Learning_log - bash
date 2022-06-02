@@ -136,6 +136,28 @@ done
 
 sum_score
 ________________
+second CODE: 
+This script will make files and will use concept of functions, also we will try to add permission to desired file in the code:
+
+#!/bin/bash
+echo " Using functions to create folder "
+function create_file() {
+filename=$1
+is_script=$2
+touch $filename
+if [ "$is_script" == true ]
+then
+chmod u+x $filename
+echo " Permission have been added "
+fi
+}
+create_file ok.txt
+create_file haha.yaml
+create_file omg.sh true
+
+
+
+
 
 
 

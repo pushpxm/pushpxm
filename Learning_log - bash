@@ -85,4 +85,26 @@ ok1
 ok2
 ok3
 ___________
+While loop
+-It dont iterate through a list like for loop, the code is executed until the certain conditions are met.
+-Simple code for understanding the while loop in bash scripting. 
+CODE: !/bin/bash
+
+echo " Practicing while loop "
+
+sleep 1
+sum=0
+while true
+do
+        read -p " Please enter the score " score
+        if [ "$score" == "q" ]
+        then 
+        break
+        fi
+        sum=$(($sum+$score))
+        echo "The current score is: $score"
+        echo "The total sum is: $sum"
+done
+
+
 

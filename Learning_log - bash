@@ -105,6 +105,38 @@ do
         echo "The current score is: $score"
         echo "The total sum is: $sum"
 done
+___________ 
+->now lets talk about FUNCTION 
+its like->
+name () {
+# code goes here
+}
+
+so taking above's example of while loop, we can use function to define the logic and use it again when we need accordingly. 
+it looks like: 
+CODE: !/bin/bash
+
+echo " Practicing while loop "
+
+sleep 1
+function sum_score {
+sum=0
+while true
+do
+        read -p " Please enter the score " score
+        if [ "$score" == "q" ]
+        then 
+        break
+        fi
+        sum=$(($sum+$score))
+        echo "The current score is: $score"
+        echo "The total sum is: $sum"
+done
+}
+
+sum_score
+________________
+
 
 
 

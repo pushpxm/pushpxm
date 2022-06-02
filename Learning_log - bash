@@ -47,4 +47,42 @@ echo " user $2"
 echo " This will tell how many parameters are being used : $# "
 echo " This will show the listing of parameters in horizontal manner : $* "
 
+-Learnt about the LOOPS 
+1. For loop
+CODE- 
+Create and open loop.sh file in vim editor: 
+vim loop.sh
+->
+#!/bin/bash
+echo " The no. of parameters used : $# "
+echo " The parameters used here are : $* "
+for param in $*
+do 
+ echo $param
+done
+__________
+This code will print the parameters, that is : bash loops.sh ok1 ok2 ok3
+Output: The param used here are : ok1 ok2 ok3 
+ok1
+ok2
+ok3
+
+another example :
+#!/bin/bash 
+
+for param in $*
+do
+if [ -d "$param" ]
+then
+ls -l "$param"
+fi
+echo $param
+done
+OUTPUT: The param used here are : ok1 ok2 ok3 
+total 4
+-rw-r--r-- 1 kali kali 487 Jun  1 13:10 seconds.sh
+ok1
+ok2
+ok3
+___________
 

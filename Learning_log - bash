@@ -148,7 +148,8 @@ touch $filename
 if [ "$is_script" == true ]
 then
 chmod u+x $filename
-echo " Permission have been added "
+echo " Permission have been added to: "
+ls -l $filename
 fi
 }
 create_file ok.txt

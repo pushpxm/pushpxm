@@ -155,10 +155,19 @@ fi
 create_file ok.txt
 create_file haha.yaml
 create_file omg.sh true
+________
+-Anothrer thing I've learnt is returning values from Function 
+CODE:
+#!bin/bash
 
+function sum() {
+$total = $(($1+$2))
+return total
+}
 
-
-
+sum 2 5
+result=$?
+echo result
 
 
 

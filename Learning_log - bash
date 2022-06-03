@@ -168,6 +168,12 @@ return total
 sum 2 5
 result=$?
 echo result
+__________________
+
+03-06-2022 -DAY3
+I did a revision of all the commands and basic concepts I've learnt in linux as well as bash-scripting.
+Also gone through a video to grasp some more things about bash scripting -
+LINK : https://www.youtube.com/watch?v=_n5ZegzieSQ 
 
 
 

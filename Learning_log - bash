@@ -175,6 +175,15 @@ I did a revision of all the commands and basic concepts I've learnt in linux as 
 Also gone through a video to grasp some more things about bash scripting -
 LINK : https://www.youtube.com/watch?v=_n5ZegzieSQ 
 
+Some commands to add,delete,modify the users,groups.
+sudo adduser -name-  -> Add user 
+sudo addgroup -name- -> Add group
+sudo deluser -name- -> Del user
+sudo delgroup -name- -> Delete group
 
+we can also use userdel,groupdel instead deluser,delgroup.
+use cases
+addgroup/adduser -> Its interactive and userfriendly, so thumb rule is to use it manually. 
+groupadd/useradd ->  use it in a bash script. 
 
 

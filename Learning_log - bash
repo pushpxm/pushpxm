@@ -186,4 +186,11 @@ use cases
 addgroup/adduser -> Its interactive and userfriendly, so thumb rule is to use it manually. 
 groupadd/useradd ->  use it in a bash script. 
 
+when we add user, it stores credential in /etc/passwd dorectory
+for group its in the                      /etc/group diretory.
+Note: When we create user, the system automatically creates the primary group of the user. (That is: its own name) 
+for example : adduser pushpmx
+(pushpxm user is added) 
+when we hop into the /etc/group directory, it will show 'pushpxm' as a group. 
+
 

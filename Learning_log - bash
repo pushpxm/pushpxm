@@ -193,4 +193,7 @@ for example : adduser pushpmx
 (pushpxm user is added) 
 when we hop into the /etc/group directory, it will show 'pushpxm' as a group. 
 
+11-06-22
+Learnt about the SSH, also uploaded my notes on this repo <3 .
+
 
